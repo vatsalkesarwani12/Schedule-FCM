@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449941763707",
+    "project_id": "schedule-fcm",
+    "storage_bucket": "schedule-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449941763707:android:1f4d522edf2aa48e5814de",
+        "android_client_info": {
+          "package_name": "com.algo.phantoms.schedulefcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449941763707-m561c010u23l8mjv65f56ufik9ut72a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV6vD6qV-m-7oPkIlQs_Be8fEg6ZFvy8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449941763707-m561c010u23l8mjv65f56ufik9ut72a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

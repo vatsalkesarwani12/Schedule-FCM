@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Schedule FCM</string>
     <string name="default_notification_channel_id">default</string>
+    <string name="offer">Offer</string>
 </resources>

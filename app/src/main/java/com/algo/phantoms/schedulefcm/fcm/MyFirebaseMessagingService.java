@@ -96,6 +96,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     public void onNewToken(@NonNull String s) {
         super.onNewToken(s);
         Log.d(TAG, "Refreshed token: $token");
+        getSharedPreferences("_", MODE_PRIVATE).edit().putString("fb", s).apply();
+    }
+
+    public static String getToken(Context context) {
+        return context.getSharedPreferences("_", MODE_PRIVATE).getString("fb", "empty");
     }
 
 }
